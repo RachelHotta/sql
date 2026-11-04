@@ -57,7 +57,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 would overwrite the old address with the new/updated address. This table could include customer_id, street_address, city, postal_code. When a new address is added, UPDATE would be run to change all the values in the applicable row (correpsonding to customer_id).
+
+Type 2 would keep a record of all addresses associated with a customer_id. In addition to the column names listed for Type 1, this table would include expiration_date and is_current (i.e. when the update is made). When the customer updates their address, UPDATE would run & change is_current from TRUE to FALSE & UPDATE the expiration_date to the current date. WHEN is_current = FALSE, THEN INSERT to add a new row with the new address details, is_current = TRUE, & expiration date = NULL (until UPDATE runs again). 
 ```
 
 ***
