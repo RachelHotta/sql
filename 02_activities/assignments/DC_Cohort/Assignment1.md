@@ -213,4 +213,5 @@ I work and study in the field of forensic sciences, where I use biometric databa
 
 Related to the article’s theme, the creation of our databases themselves reflects the assumptions of the data engineers. While updates have been made to certain fields, such as race and gender, like NADRA, we are still confined to the fields originally created. Also like NADRA, these are governmental legacy structures that will almost certainly not be restructured. It is worth acknowledging that new software has been introduced in the past and resulted in the loss of information that was incompatible between systems; restructuring the entire database would potentially risk losing thousands to millions to records or pieces of records, which may not be worth the risk. Although being placed in these databases may be resultant of truly egregious acts, the role of all participants in the criminal justice system is to treat everyone with respect and inclusivity. I don’t foresee a complete database overhaul coming anywhere in the near future, but I suppose, at the very least, the decision-makers are hearing the publics’ concerns and attempting improvements. 
 
+
 ```
